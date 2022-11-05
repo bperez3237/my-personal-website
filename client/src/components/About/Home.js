@@ -1,5 +1,6 @@
 import React from 'react'
 import headshot from './headshot.png'
+import './About.css'
 
 function Home() {
   return (

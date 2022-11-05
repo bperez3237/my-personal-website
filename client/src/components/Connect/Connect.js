@@ -1,8 +1,9 @@
 import React from 'react'
+import './Connect.css';
 
 function Connect() {
   return (
-    <div>Connect</div>
+    <div className='main'>Connect</div>
   )
 }
 

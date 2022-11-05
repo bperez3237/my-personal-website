@@ -23,13 +23,7 @@
   margin: 0
 }
 
-.main {
-  flex: 70%;
-  display: grid;
-  padding: 70px;
-  background-color: #1b2435;
-  color: azure;
-}
+
 
 .Sidebar {
   flex: 30%;
@@ -100,9 +94,10 @@
   place-items: center;
 }
 
-#headshot {
-  width: 250px;
-  height: 300px;
-  justify-self: center;
+.main {
+  flex: 70%;
+  display: grid;
+  padding: 50px;
+  background-color: #1b2435;
+  color: azure;
 }
-
