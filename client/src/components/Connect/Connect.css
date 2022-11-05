@@ -1,0 +1,16 @@
+h1 {
+    margin: 0;
+}
+
+.link {
+    margin: 10px;
+    padding: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+.links-group .link:hover {
+    color: #fff;
+    background-color: rgb(231, 222, 222);
+}
