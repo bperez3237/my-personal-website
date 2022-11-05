@@ -1,12 +1,15 @@
 import React from 'react'
 import ImageContainer from './ImageContainer'
+import LanguageIcons from './LanguageIcons'
 
-function ProjectCard({images, bio}) {
+
+function ProjectCard({title, images, bio}) {
   return (
     <div className='card'>
-        ProjectCard
+        <h4>{title}</h4>
         <ImageContainer images={images}/>
         <p>{bio}</p>
+        <LanguageIcons />
     </div>
   )
 }

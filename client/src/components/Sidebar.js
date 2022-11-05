@@ -3,7 +3,6 @@ import '../App.css'
 import useFetch from '../hooks/useFetch'
 import {AiOutlineBars, AiFillRocket} from 'react-icons/ai'
 import {BiNetworkChart} from 'react-icons/bi'
-import {DiRubyRough} from 'react-icons/di'
 import {ImHome} from 'react-icons/im'
 import {useNavigate} from 'react-router-dom'
 

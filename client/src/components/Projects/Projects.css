@@ -10,6 +10,10 @@ h1 {
     border-color: aliceblue;
 }
 
+.card h4 {
+    margin: 10px;
+}
+
 .Image-Container {
     display: grid;
     
