@@ -9,7 +9,7 @@ function Projects() {
     const images = [1,2,3,4,5,6,7,8,9,10]
     // console.log(projects)
     const projectCards = projects.map((project) => {
-        return <ProjectCard key={project.id} bio={project.bio} images={images} title={project.title}/>
+        return <ProjectCard key={project.id} bio={project.bio} images={images} title={project.title} link={project.link}/>
     })
 
     return (

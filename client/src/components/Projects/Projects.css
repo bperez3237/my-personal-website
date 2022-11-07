@@ -2,6 +2,10 @@ h1 {
     margin: 0;
 }
 
+a {
+    color: aqua;
+}
+
 .card {
     margin: 20px;
     padding: 10px;
