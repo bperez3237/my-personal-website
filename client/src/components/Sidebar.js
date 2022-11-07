@@ -20,15 +20,15 @@ function Sidebar() {
                     <div id='icon'><AiOutlineBars/></div>
                 </li>
                 <li id='about-me' className='row'  onClick={()=>navigate('/')}>
-                    <div id='icon' style={{display:(showSidebar ? 'none' : 'block')}}><ImHome/></div>
+                    <div id='icon'><ImHome/></div>
                     <div id='title' style={{display:(showSidebar ? 'none' : 'block')}}>About Me</div>
                 </li>
                 <li id='projects' className='row'  onClick={()=>navigate('/projects')}>
-                    <div id='icon' style={{display:(showSidebar ? 'none' : 'block')}}><AiFillRocket/></div>
+                    <div id='icon' ><AiFillRocket/></div>
                     <div to='/projects' id='title' style={{display:(showSidebar ? 'none' : 'block')}}>Projects</div>
                 </li>
                 <li id='connect' className='row'  onClick={()=>navigate('/connect')}>
-                    <div id='icon' style={{display:(showSidebar ? 'none' : 'block')}}><BiNetworkChart/></div>
+                    <div id='icon' ><BiNetworkChart/></div>
                     <div id='title' style={{display:(showSidebar ? 'none' : 'block')}}>Connect</div>
                 </li>
                 {/* {projects.map((project, key) => {
