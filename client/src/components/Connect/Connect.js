@@ -6,8 +6,8 @@ import {FaDev} from 'react-icons/fa'
 function Connect() {
   return (
     <div className='main'>
-      <h1>Connect</h1>
-      <p>intro paragraph here</p>
+      <h3>Connect with me on these sites:</h3>
+      {/* <p>Connect with me on these sites:</p> */}
       <div className='links-group'>
         <AiFillGithub className='link' onClick={()=>window.open('https://github.com/bperez3237')}/>
         <AiFillLinkedin className='link' onClick={()=>window.open('https://www.linkedin.com/in/brian-perez-164a6b155/')}/>
