@@ -1,5 +1,7 @@
 # Project Template: React/Rails API
 
+My personal website created using Ruby on Rails and React JS. See my about me, project links, and other websites you can connect with me on.
+
 ## Description
 
 This project is scaffolded so that you can build a React frontend and Rails
