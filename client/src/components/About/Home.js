@@ -5,7 +5,7 @@ import './About.css'
 function Home() {
   return (
     <div className='main'>
-      <img id='headshot' src={headshot} alt='headshot-of-guy'/>
+      <img id='headshot' src={headshot} alt='brian-headshot'/>
       <div className="">
         <p>
         I am an aspiring Full Stack Software Engineer looking to tackle challenging problems in software engineering. Since college I've had an interest in coding and I've recently completed a Software Engineering course at Flatiron School to pursue coding as a career. I currently work in the Construction industry as a Cost Engineer at a General Contractor. In my career so far I've learned valuable management and business skills that I am excited to bring to my new software engineering career.

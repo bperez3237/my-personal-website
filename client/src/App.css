@@ -32,6 +32,7 @@
 
 .Sidebar {
   flex: 30%;
+  max-width: 250px;
   display: grid;
   height: 100%;
   background-color: #3d434e;
@@ -61,7 +62,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .Sidebar-list #Sidebar-heading {
@@ -101,6 +102,7 @@
 
 .main {
   flex: 70%;
+  max-width: 750px;
   display: grid;
   padding: 50px;
   background-color: #1b2435;
