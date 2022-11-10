@@ -1,8 +1,9 @@
 
 #headshot {
     width: 250px;
-    height: 320px;
+    height: 250px;
     justify-self: center;
+    border-radius: 50%;
   }
   
 

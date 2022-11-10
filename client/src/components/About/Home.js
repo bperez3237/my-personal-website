@@ -1,5 +1,5 @@
 import React from 'react'
-import headshot from './headshot.jpg'
+import headshot from './Headshot2022.png'
 import './About.css'
 
 function Home() {
