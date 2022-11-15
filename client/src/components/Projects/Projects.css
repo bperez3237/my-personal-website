@@ -18,7 +18,7 @@ a {
     margin: 10px;
 }
 
-.Image-Container {
+.image-Container {
     display: grid;
     
     justify-content: center;
@@ -26,10 +26,17 @@ a {
     border: 1px;
     border-style: solid;
     border-color: aliceblue;
+
+    max-width: 800px;
     
 }
 
 .image-buttons {
     display: flex;
     justify-content: center;
+}
+
+img {
+    max-height: inherit;
+    max-width: inherit;
 }

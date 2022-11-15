@@ -15,7 +15,7 @@ function ImageContainer({images}) {
     }
 
     return (
-        <div className='Image-Container'>
+        <div className='image-Container'>
             <img id='project-image' src={images[imagesIndex]} alt={`project-image-${imagesIndex}`} />
             <div className='image-buttons'>
                 <button id='left' onClick={()=>changeIndex(-1)}>Left</button>
