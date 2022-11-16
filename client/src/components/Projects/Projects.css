@@ -6,12 +6,24 @@ a {
     color: aqua;
 }
 
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: scroll;
+}
+
 .card {
     margin: 20px;
     padding: 10px;
     border: 1px;
     border-style: solid;
     border-color: aliceblue;
+
+    width: 90%;
 }
 
 .card h4 {
@@ -19,7 +31,7 @@ a {
 }
 
 .image-Container {
-    display: grid;
+    /* display: grid; */
     
     justify-content: center;
     align-items: center;
@@ -27,7 +39,7 @@ a {
     border-style: solid;
     border-color: aliceblue;
 
-    max-width: 800px;
+    /* width: ; */
     
 }
 
@@ -37,6 +49,7 @@ a {
 }
 
 img {
-    max-height: inherit;
-    max-width: inherit;
+    /* max-height: inherit;
+    max-width: inherit; */
+    width: 100%;
 }

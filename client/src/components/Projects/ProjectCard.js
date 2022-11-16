@@ -9,8 +9,8 @@ function ProjectCard({title, images, bio, link}) {
         <h4>{title}</h4>
         <ImageContainer images={images}/>
         <p>{bio}</p>
-        <a href={link}>Visit Page</a>
         <LanguageIcons />
+        <a href={link}>Visit App Page</a>
     </div>
   )
 }

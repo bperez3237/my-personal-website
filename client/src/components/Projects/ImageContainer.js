@@ -3,7 +3,6 @@ import React, {useState} from 'react'
 function ImageContainer({images}) {
     const [imagesIndex, setImagesIndex] = useState(0)
 
-    console.log(imagesIndex)
     function changeIndex(changeNumber) {
         let newIndex = imagesIndex + changeNumber
         if (newIndex < 0) {

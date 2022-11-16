@@ -10,7 +10,7 @@ import project_2_2 from './images/Project-2-2.png'
 function Projects() {
     const {data: projects, setData: setProjects} = useFetch('/projects')
 
-    const images = [[project_1_1,project_1_2],[project_2_1,project_2_2]]
+    const images = [[project_2_1,project_2_2],[project_1_1,project_1_2]]
 
     const projectCards = projects.map((project, index) => {
         return <ProjectCard key={project.id} bio={project.bio} images={images[index]} title={project.title} link={project.link}/>
@@ -19,7 +19,9 @@ function Projects() {
     return (
         <div className='main'>
             <h1>Projects</h1>
-            {projectCards}
+            <div className='card-container'>
+                {projectCards}
+            </div>
         </div>
     )
 }

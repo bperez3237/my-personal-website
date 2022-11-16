@@ -38,6 +38,8 @@
   background-color: #3d434e;
   color: azure;
   float: left;
+
+  transition: width 0.25s;
 }
 
 .Sidebar-list {
@@ -107,4 +109,5 @@
   padding: 50px;
   background-color: #1b2435;
   color: azure;
+
 }
