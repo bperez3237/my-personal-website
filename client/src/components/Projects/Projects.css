@@ -7,23 +7,18 @@ a {
 }
 
 .card-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    overflow: scroll;
+    margin: 20px;
 }
 
 .card {
+    display: grid;
+    background-color: #222d42;
     margin: 20px;
-    padding: 10px;
-    border: 1px;
-    border-style: solid;
-    border-color: aliceblue;
+    padding: 15px;
 
-    width: 90%;
+    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.2);
+
+    width: 95%;
 }
 
 .card h4 {
@@ -31,16 +26,8 @@ a {
 }
 
 .image-Container {
-    /* display: grid; */
-    
     justify-content: center;
     align-items: center;
-    border: 1px;
-    border-style: solid;
-    border-color: aliceblue;
-
-    /* width: ; */
-    
 }
 
 .image-buttons {

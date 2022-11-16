@@ -3,11 +3,8 @@ h1 {
 }
 
 .link {
-    margin: 10px;
-    padding: 10px;
-    border: 1px;
-    border-style: solid;
-    border-color: aliceblue;
+    margin: 5px;
+    padding: 5px;
 }
 
 .links-group .link:hover {

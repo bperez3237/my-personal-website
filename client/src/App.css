@@ -22,7 +22,6 @@
 
 .App-body {
   text-align: center;
-  background-color: #1b2435;
   color: azure;
   height: 100vh;
   margin: 0
@@ -104,10 +103,8 @@
 
 .main {
   flex: 70%;
-  max-width: 750px;
   display: grid;
   padding: 50px;
-  background-color: #1b2435;
   color: azure;
 
 }

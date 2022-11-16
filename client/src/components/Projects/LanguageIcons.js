@@ -3,10 +3,11 @@ import {DiRubyRough, DiReact} from 'react-icons/di'
 
 
 function LanguageIcons() {
+  const iconSize = '1.8em'
   return (
     <div>
-        <DiRubyRough size='2em'/>
-        <DiReact size='2em' />
+        <DiRubyRough size={iconSize}/>
+        <DiReact size={iconSize} />
     </div>
   )
 }

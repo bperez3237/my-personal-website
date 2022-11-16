@@ -6,7 +6,7 @@ import LanguageIcons from './LanguageIcons'
 function ProjectCard({title, images, bio, link}) {
   return (
     <div className='card'>
-        <h4>{title}</h4>
+        <h2>{title}</h2>
         <ImageContainer images={images}/>
         <p>{bio}</p>
         <LanguageIcons />
