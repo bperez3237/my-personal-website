@@ -2,7 +2,7 @@ import './App.css';
 import Home from './components/About/Home';
 import Projects from './components/Projects/Projects';
 import Connect from './components/Connect/Connect';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar';
 import { Routes, Route } from 'react-router-dom'
 

@@ -1,9 +1,10 @@
 .App {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .App-header {
+  position: sticky;
   background-color: #282c34;
   display: flex;
   padding: 20px;
@@ -13,6 +14,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   line-height: 0;
+  height: 70px;
 }
 
 .App-header p {
@@ -23,11 +25,12 @@
 .App-body {
   text-align: center;
   color: azure;
-  height: 100vh;
-  margin: 0
+  height: 800px;
+  /* height: calc(100vh-110px); */
+  /* height: 100vh; */
+  height: 900px;
+  margin: 0px;
 }
-
-
 
 .Sidebar {
   flex: 30%;
@@ -105,6 +108,8 @@
   flex: 70%;
   display: grid;
   padding: 50px;
-  color: azure;
+  color: rgb(255, 247, 240);
+  max-height: calc(100% - 100px);
+  overflow: scroll;
 
 }

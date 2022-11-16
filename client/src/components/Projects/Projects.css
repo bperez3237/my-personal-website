@@ -7,18 +7,21 @@ a {
 }
 
 .card-container {
-    margin: 20px;
+    margin: 10px;
+    /* overflow: scroll; */
+    max-height: 100%;
 }
 
 .card {
-    display: grid;
+    /* display: flex;
+    flex-direction: column; */
     background-color: #222d42;
     margin: 20px;
     padding: 15px;
 
-    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.1);
 
-    width: 95%;
+    width: 90%;
 }
 
 .card h4 {
